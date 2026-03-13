@@ -186,45 +186,8 @@
                     <option value="competitions">Competitions</option>
                 </select>
                 
-                <label>Date of Birth:</label>
-                <input type="date" name="dob" required>
-
-                <label>Amount to Pay ($):</label>
-                <input type="number" name="amount" placeholder="e.g. 100" required>
-
-                <label>Payment Method:</label>
-                <select name="method">
-                    <option value="card">Card</option>
-                    <option value="transfer">EFT / Transfer</option>
-                    <option value="mobile">Mobile Money</option>
-                </select>
-                
-                <div style="margin-top:20px;">
-                    <button type="submit" class="reg-btn">Submit & Register</button>
-                    <button type="button" onclick="closeForm()" style="background:#444; color:white; border:none; padding:10px; border-radius:5px; margin-left:10px;">Close</button>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <script>
-        // These functions make the buttons work!
-        function openForm() {
-            document.getElementById('form-overlay').style.display = 'block';
-        }
-
-        function closeForm() {
-            document.getElementById('form-overlay').style.display = 'none';
-        }
-
-        // Close the form if user clicks outside the box
-        window.onclick = function(event) {
-            var modal = document.getElementById('form-overlay');
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+               
+      
 
 <footer>
 <address> CONTACT: +267 765 786 78            technohub@gmail.com</address>
@@ -233,4 +196,5 @@
 
 
 </body>
+
 </html>
