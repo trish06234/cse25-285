@@ -5,42 +5,155 @@
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <title>NeuroTech Robotics — Event</title>
 
+<style>
+body{
+background-image:url(4142199.jpg)  ;
+margin:10px;
+color:#f0ffff;
+}
+
+main{
+padding:25px;
+color:#f0ffff;
+
+}
+.img-in{
+padding:5px;
+margin:1px;
+width:205px;
+height:175px;
+float:left;
+}
+.img-in1{
+padding:5px;
+margin:1px;
+width:355px;
+height:295px;
+float:left;
+margin-bottom: 20px;
+}
+
+
+
+.event-box {
+  border: 2px solid #001f4d;       
+  padding: 15px;               
+  margin: 20px;                
+  background-color:  #001f4d;    
+  border-radius: 8px;           
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2); 
+  width: 350px;   
+  color:#f0ffff;              
+}
+
+ .container{
+ display: flex;        
+ gap: 20px;              
+ flex-wrap: wrap; 
+ color:#f0ffff;      
+}
+
+.nav-container{
+ flex: 0 0 auto;         
+ width: auto;            
+ padding: 6px 12px;      
+ border: 1px solid #001f4d;
+ border-radius: 4px;
+ background-color: #001f4d;
+ box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+ gap:12px;
+ color:#f0ffff;
+}
+.nav-link{
+color:  #f0ffff ;
+}
+.navigation-box{
+ display:inline-block;
+  border: 1px solid  #001f4d3;       
+  padding:8px 14px;               
+  margin: 20px;                
+  background-color:  #001f4d;    
+  border-radius: 4px;           
+  color:#f0ffff;
+  width: 75px;
+  border:1px solid #001f4d;
+  border-radius:4px;
+text-transform:uppercase;
+font-weight:bold;
+font-family:arial;
+}
+
+.navigation-box:hover{
+background:#353640
+
+}
+
+
+.header-container{
+height:335px;
+justify-content:space-between;
+align-items:flex-start;
+background-color:none;
+padding:0px 0px;
+color:#f8f8ff;
+width:100%;
+position:relative;
+}
+.register-btn{
+text-item:right;
+background-color:#ccc;
+margin-left:15px;
+border-radius:10px;
+padding:10px;
+witdth:90px;
+}
+
+
+
+</style>
+
 
 </head>
 <body>
   
 <header>
-<div>
-<img src="E:\Copilot_20260319_110150.png" alt="NeuroTech Robotics logo"/>
+ <div class="header-container">
 
-</div>
+<img class="img-in1"src="C:\Users\WINDOWS 11 PRO\OneDrive\Documents\assignment\BCO.03f7e8b6-4741-4c21-8ac9-8d787a278490.png" alt="NeuroTech Robotics logo"/>
+
 
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              
+                  <nav class="navigation-box">
                     
                         <a class="nav-link" href="index.html">Home</a>
-                   
+                   </nav>
+     <nav class="navigation-box">
                 
                         <a class="nav-link" href="aboutUs.html">About</a>
                    
-                    
+                    </nav>
+     <nav class="navigation-box">
                         <a class="nav-link" href="projects.html">Projects</a>
-                    
+                    </nav>
+     <nav class="navigation-box">
 		
                         <a class="nav-link" href="events.html">Events</a>
+</nav>
+     <nav class="navigation-box">
 				<a class="nav-link" href="contact.html">Contact</a>
-                   
+                   </nav>
 			
-                        
+                          
                     <button class="register-btn" id="openRegister">Register Now</button>
 
                 
             </div>
         </div>
+</div>
     </nav>
 </header>
 
@@ -50,50 +163,53 @@
     <h2>Events & Workshops</h1>
 
     <p>Upcoming workshops, competitions and outreach events. Each listing shows what attendees will gain and who is hosting.</p>
+</article>
 
-
+ <div class="event-box">
         <p><b>Time of event:</b>10 May 2026</p>
         <h3>Introduction to Robotics Workshop</h3>
-<img src="E:\hands on.png" alt="NeuroTech Robotics logo"/>
+<img class="img-in" src="C:\Users\WINDOWS 11 PRO\OneDrive\Documents\assignment\hands on.png" alt="NeuroTech Robotics logo"/>
         <p>Track: Educational</p>
         <p><strong>Who is hosting:</strong> NeuroTech Robotics in partnership with local secondary schools.</p>
         <p><strong>What attendees will gain:</strong> Hands‑on experience with microcontrollers (Arduino), basic sensors, and a guided build of a simple line‑following robot. Attendees leave with a starter kit checklist and lesson plan to continue learning.</p>
-      </article>
+      </div>
 
-      <article>
+
+ <div class="event-box">
         <p><b>Time of event:</b>20 June 2026</p>
         <h3>Agritech Hackathon</h3>
 
-<img src="E:\download.webp" alt="NeuroTech Robotics logo"/>
+<img class="img-in"src="C:\Users\WINDOWS 11 PRO\OneDrive\Documents\assignment\download.webp" alt="Agritech Hackathon logo"/>
 
         <p>Track: Agricultural</p>
         <p><strong>Who is hosting:</strong> NeuroTech Robotics with mentorship from AgriTech partners and university researchers.</p>
         <p><strong>What attendees will gain:</strong> Rapid prototyping skills, exposure to NDVI sensing and IoT telemetry, team experience in pitching solutions to smallholder farming problems, and potential pilot opportunities with local farms.</p>
-      </article>
+     </div> 
 
-      <article>
+ 
+ <div class="event-box">
  <p><b>Time of event:</b>15 August 2026</p> 
 <h3>Healthcare Robotics Seminar</h3>
 
-<img src="E:\download (1).webp" alt="NeuroTech Robotics logo"/>
+<img class="img-in"src="C:\Users\WINDOWS 11 PRO\OneDrive\Documents\assignment\download (1).webp" alt="NeuroTech Robotics logo"/>
        
         <p>Track: Medicinal</p>
         <p><strong>Who is hosting:</strong> NeuroTech Robotics with guest speakers from healthcare NGOs and biomedical engineering departments.</p>
         <p><strong>What attendees will gain:</strong> Understanding of assistive robotics use cases, design constraints for low‑resource clinics, and a roadmap for building telepresence and rehabilitation prototypes suitable for local clinics.</p>
-      </article>
+      </div>
 
-      <article>
+      <div class="event-box">
         <p><b>Time of event:</b>05 September 2026</p>
         <h3>Industrial Automation Lab</h3>
 
-<img src="E:\industrial2.webp" alt="NeuroTech Robotics logo"/>
+<img class="img-in"src="C:\Users\WINDOWS 11 PRO\OneDrive\Documents\assignment\industrial.webp" alt="NeuroTech Robotics logo"/>
 
         <p>Track: Industrial</p>
         <p><strong>Who is hosting:</strong> NeuroTech Robotics with industry partners and technical trainers.</p>
         <p><strong>What attendees will gain:</strong> Practical exposure to PLC basics, motor control, and a SCARA arm demo. Participants will learn safety practices, basic ladder logic concepts and how to prototype simple automation flows.</p>
-      </article>
+ 
     </div>
-
+</article>
     <footer>
       <p>&copy; <span id="yrEvents"></span> NeuroTech Robotics</p>
     </footer>
