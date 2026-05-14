@@ -1,0 +1,116 @@
+
+body{
+background-image:url(4142199.jpg)  ;
+margin:10px;
+color:#f8f8ff;
+font-family:Aptos, Arial, sans-serif;
+}
+main{
+padding:25px;
+color:#f8f8ff;
+}
+h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+.img-in{
+padding:5px;
+margin:1px;
+width:205px;
+height:175px;
+float:left;
+}
+.img-in1{
+padding:5px;
+margin:1px;
+width:355px;
+height:295px;
+float:left;
+}
+
+
+.event-box {
+  border: 2px solid #001f4d;       
+  padding: 15px;               
+  margin: 20px;                
+  background-color: rgba(0, 31, 77, 0.5);    
+  border-radius: 8px;           
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2); 
+  width: 350px;
+                
+}
+
+.event-box1 {
+  border: 2px solid #001f4d;       
+  padding: 15px;               
+  margin: 20px;                
+  background-color: rgba(0, 31, 77, 0.5);    
+  border-radius: 8px;           
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.2); 
+  width: 93%;
+                
+}
+
+
+ .container{
+ display: flex;        
+ gap: 20px;              
+ flex-wrap: wrap;
+color:#f8f8ff;       
+}
+
+.nav-container{
+ flex: 0 0 auto;         
+ width: auto;            
+ padding: 6px 12px;      
+ border: 1px solid #333;
+ border-radius: 4px;
+ background-color:rgba(0, 31, 77, 0.5);
+ box-shadow: 1px 1px 4px rgba(0,0,0,0.2);
+ gap:12px;
+color:#f8f8ff;
+}
+.nav-link{
+color:#f8f8ff;
+}
+.navigation-box{
+  display:inline-block;
+  border: 1px solid #333;       
+  padding:8px 14px;               
+  margin: 20px;                
+  background-color: rgba(0, 31, 77, 0.5);    
+  border-radius: 4px;           
+  color:#f8f8ff;
+  width: 75px;
+  border:1px solid #001f4d;
+  border-radius:4px;
+text-transform:uppercase;
+font-weight:bold;
+font-family:arial;
+
+}
+.navigation-box:hover{
+background:#353640
+
+}
+
+.header-container{
+height:308px;
+justify-content:space-between;
+align-items:flex-start;
+background-color:none;
+padding:0px 0px;
+color:#f8f8ff;
+width:100%;
+
+}
+.register-btn{
+text-item:right;
+background-color:#ccc;
+margin-left:15px;
+border-radius:10px;
+padding:10px;
+witdth:90px;
+}
+
+
