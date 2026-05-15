@@ -53,7 +53,7 @@
 <main class="container my-5">
     <div class="row">
         <div class="col-md-8">
-<h1><i>WIRED FOR INNOVATION, DRIVEN BY PURPOSE<i></h1>
+<h1>WIRED FOR INNOVATION, DRIVEN BY PURPOSE</h1>
 
 <h2>About NeuroTech Robotics</h2>
 <div class="event-box1">
@@ -123,7 +123,7 @@
 <div class="event-box">
 
         <p>Service Robotics</p>
-<img class="img-in" src="R.jpg" alt="NeuroTech Robotics logo"/>
+<img class="img-in" src="assignment\R.jpg" alt="NeuroTech Robotics logo"/>
 
         <p>
           <strong>Focus:</strong> delivery robots, campus assistants, human‑robot interaction and UX design.<br>
@@ -143,12 +143,59 @@
 </div>
      
 
-    <footer>
-      <p>&copy; <span id="yrAbout"></span> NeuroTech Robotics — Gaborone</p>
-    </footer>
-  </main>
+<div id="registerModal" style="display:none;position:fixed;z-index:1;top:0;width:100%;height:100%;background-color:rgba(0,0,0,0.8);">
+<div style="background-color:#1a1a1a;margin:10% auto;padding:20px;border:1px solid #00ced1;width:50%;color:white;">
+<span id="closeBtn" style="float:right";cursor:pointer;">&times;</span><h2>NeuroTech Robotics registration</h2>
+  <form action="https://formspree.io/f/xpqbgebg" method="post">
+<input type="text" name="fullname" placeholder="write your name">
+<input type="text" name="email" placeholder="write your email">
+<input type="integer" name="Age" placeholder="write your age">
+<input type="text" name="fullname" placeholder="write name of guardian">
+<input type="text" name="relationship with guardian" placeholder="relation">
+
+<select name="category">
+ <option value="none">none</option>
+ <option value="category 1">Industrial Robotics</option>
+ <option value="category 2">Educational Robotics</option>
+ <option value="category 3">Medicinal Robotics</option>
+ <option value="category 4">Service Robotics</option>
+ <option value="category 5">Agricultural Robotics</option>
+
+ </select> 
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+</select>
+<textarea name="message" placeholder="write message!"></textarea>
+    
 
 
-
-  </body>
+<button type="submit" name="submit">submit</button>
+<button type="reset" name="reset">reset</button>
+</div>
+</div>
+</body>
 </html>
+
+<script>
+    const btn = document.getElementById("openRegister");
+    const modal = document.getElementById("registerModal");
+    const close = document.getElementById("closeBtn");
+
+    btn.onclick = function() {
+        modal.style.display = "block";
+    }
+    close.onclick = function() {
+        modal.style.display = "none";
+    }
+</script>
+
+
+
+
+
+
+
