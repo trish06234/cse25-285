@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
-  <title>NeuroTech Robotics — Events</title>
+  <title>NeuroTech Robotics — Feedback</title>
   <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
@@ -30,13 +30,15 @@
 </header>
 
 <main class="container my-5">
-  <h2>Upcoming Events & Workshops</h2>
-  <div class="event-box">
-    <p><b>Time of event:</b> 10 May 2026</p>
-    <h3>Introduction to Robotics Workshop</h3>
-    <img class="img-in" src="hands on.png" alt="Students building modular robot platform hardware builds"/>
-    <p><strong>What attendees will gain:</strong> Hands-on system building using microcontroller architectures (Arduino components).</p>
-  </div>
+  <h2>Give Us Your Feedback</h2>
+  <p>We highly value your input. Share your thoughts, workspace inquiries, or workshop suggestions below.</p>
+  
+  <form action="https://formspree.io/f/xpqbgebg" method="post">
+    <input type="text" name="fullname" placeholder="Your Name" aria-label="Your Name"><br><br>
+    <input type="email" name="email" required placeholder="Your Email Address" aria-label="Your Email"><br><br>
+    <textarea name="feedback" rows="5" placeholder="Type your message or experience feedback here..." required aria-label="Feedback Message"></textarea><br><br>
+    <button type="submit">Submit Feedback</button>
+  </form>
 </main>
 </body>
 </html>
